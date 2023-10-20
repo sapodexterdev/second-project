@@ -230,6 +230,7 @@
 .staff {
   padding: 100px 0 140px;
   background-image: url(../images/staff_picks_background.jpg);
+  background-size: cover;
   height: 100%;
 }
 
@@ -351,6 +352,8 @@
   position: relative;
   box-sizing: border-box;
   z-index: 0;
+  display: flex;
+  column-gap: 120px;
 }
 
 .about__title {
@@ -358,6 +361,7 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
+  max-width: 154px;
 }
 
 .about__content {
@@ -365,6 +369,14 @@
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
+}
+
+.about__paragraph {
+  margin: 0 0 32px;
+}
+
+.about__paragraph:nth-of-type(3) {
+  margin: 0;
 }
 
 .about__circle {
